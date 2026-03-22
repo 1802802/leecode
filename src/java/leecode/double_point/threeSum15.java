@@ -1,4 +1,4 @@
-package leecode;
+package leecode.double_point;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -19,7 +19,6 @@ public class threeSum15 {
                                 .collect(Collectors.joining(",")));
                     }
                     set.add(nums[j]);
-
                 }
             }
         }
